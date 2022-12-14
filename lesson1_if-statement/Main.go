@@ -5,7 +5,7 @@ import "fmt"
 var p1 = fmt.Println
 
 func main() {
-    iAge := 88
+    iAge := 21
     if (iAge >= 1) && (iAge <= 18) {
             p1("Important Birthday")
     }   else if (iAge == 21) || (iAge == 50) {
